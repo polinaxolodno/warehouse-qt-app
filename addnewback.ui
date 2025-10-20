@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addnewback</class>
+ <widget class="QMainWindow" name="addnewback">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>501</width>
+    <height>255</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>12</y>
+      <width>169</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Mono</family>
+      <pointsize>17</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Возрат кабеля</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>54</y>
+      <width>40</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Дата</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="DE_dateback">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>50</y>
+      <width>110</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>110</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Кол-во взятых</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LB_valueHave">
+    <property name="geometry">
+     <rect>
+      <x>136</x>
+      <y>90</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>VALUE</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="SB_quntityBack">
+    <property name="geometry">
+     <rect>
+      <x>404</x>
+      <y>86</y>
+      <width>73</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>90</y>
+      <width>157</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Кол-во возращаемых</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PHB_addnewbackApply">
+    <property name="geometry">
+     <rect>
+      <x>376</x>
+      <y>208</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>126</y>
+      <width>110</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Номер кабеля</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="CB_numCableBack">
+    <property name="geometry">
+     <rect>
+      <x>132</x>
+      <y>124</y>
+      <width>345</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>155</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ФИО возращающего</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="CBB_FIOback">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>164</y>
+      <width>300</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

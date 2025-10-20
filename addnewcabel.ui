@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addnewcabel</class>
+ <widget class="QMainWindow" name="addnewcabel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>556</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>18</y>
+      <width>269</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавление нового кабеля на склад</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>52</y>
+      <width>107</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Номер кабеля</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LE_cabelnum">
+    <property name="geometry">
+     <rect>
+      <x>134</x>
+      <y>50</y>
+      <width>400</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>94</y>
+      <width>107</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Количество</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="SB_quantitycabel">
+    <property name="geometry">
+     <rect>
+      <x>114</x>
+      <y>92</y>
+      <width>97</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PHB_newcabelApply">
+    <property name="geometry">
+     <rect>
+      <x>434</x>
+      <y>108</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

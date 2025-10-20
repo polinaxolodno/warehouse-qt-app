@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addnewhave</class>
+ <widget class="QMainWindow" name="addnewhave">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>432</width>
+    <height>253</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>150</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выдача кабеля</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>50</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Дата</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="DE_DateHave">
+    <property name="geometry">
+     <rect>
+      <x>78</x>
+      <y>46</y>
+      <width>110</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>85</y>
+      <width>130</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Кол-во в наличии:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LB_quantAll">
+    <property name="geometry">
+     <rect>
+      <x>154</x>
+      <y>85</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>VALUE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>85</y>
+      <width>120</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Кол-во к выдаче</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="SB_quanthave">
+    <property name="geometry">
+     <rect>
+      <x>342</x>
+      <y>80</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>124</y>
+      <width>110</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Номер кабеля</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="CBB_cabelnumHave">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>120</y>
+      <width>275</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>164</y>
+      <width>110</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ФИО берущего</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LE_FIOHave">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>160</y>
+      <width>275</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PHB_addnewhaveApply">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>198</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
